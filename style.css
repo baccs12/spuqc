@@ -37,7 +37,7 @@ header {
   position: absolute;
   width: 100%;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.7);
+  background: #E8E8E8;
 }
 
 /**
@@ -66,6 +66,17 @@ nav ul li {
   padding: 5px;
   font-size: 15px;
 }
+.green {
+
+}
+.li-green {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+  font-size: 15px;
+  position: relative;
+
+}
 
 nav ul li a {
   display: block;
@@ -76,5 +87,11 @@ nav ul li a {
 }
 
 nav ul li p {
-    font-size:10px;
+  font-size:10px;
+}
+
+.slide {
+  height: 659px;
+  width: 100%;
+  position: relative;
 }
